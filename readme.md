@@ -1,0 +1,1 @@
+This is learning purpose repository for my front-end homeworks at 7bits courses
