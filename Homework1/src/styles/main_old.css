@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+.header, .main {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 120px 0 100px 0;
+    border-bottom: 1px solid #cecdce;
+}
+
+.header__title {
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #434244;
+    margin: 0;
+}
+
+.header__subtitle {
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: normal;
+    color: #434244;
+    margin: 15px 0 0 0;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts__item {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.contacts__link {
+    color: #9c9da0;
+    text-decoration: none;
+}
+
+.header__contacts {
+    margin-top: 30px;
+}
+
+.main {
+    padding: 40px 0 510px 0;
+    font-size: 0;
+}
+
+.main__left, .main__right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main__left {
+    width: 425px;
+}
+
+.main__right {
+    box-sizing: border-box;
+    width: 825px;
+    padding-left: 65px;
+}
+
+.main__avatar {
+    margin-bottom: 35px;
+}
+
+.personal-info__title {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 35px;
+    background-color: #e8c734;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    color: #434244;
+}
+
+.personal-info__content {
+    margin-top: 35px;
+}
+
+.personal-info__text {
+    margin: 0;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #434244;
+}
+
+.personal-info__text_bold {
+    font-weight: bold;
+}
+
+.footer {
+    height: 45px;
+    background-color: #e8c734;
+}
+
+.experience__item {
+    display: inline-block;
+    margin-right: 0px;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.experience-info__title {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 35px;
+    background-color: #e8c734;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    color: #434244;
+}
+
+.experience-info__content {
+    margin-top: 35px;
+}
+
+.experience-info__text{
+    margin: 0 0 20px 0;
+    font-family: Arial;
+    font-size: 18px;
+    color: #8c8c8c;
+
+}
+.experience-info__job {
+    color: black;
+    margin: 30px 0 10px 0;
+    font-family: Arial;
+    font-size: 22px;
+}
+.experience__jobs-list{
+    padding: 0;
+    margin: 0;
+}
+.experience-info__company_link{
+    margin: 0 0 25px 0;
+    font-family: Arial;
+    font-size: 24px;
+    color: #1a1a1a;
+}
+.experience-info__company_description{
+    line-height: 2;
+    margin: 0;
+    font-family: Arial;
+    font-size: 18px;
+    color: #8c8c8c;
+}
+
+

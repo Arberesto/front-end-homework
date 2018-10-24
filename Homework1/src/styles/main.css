@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+.main{
+    width: 1600px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+.main_header{
+    /*float:left;*/
+    width: 1600px;
+}
+
+.categories__item{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.categories__link{
+    color: #9c9da0;
+    font-size: 24px;
+    font-family: Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.minimo_title{
+    color: black;
+    font-size: 32px;
+    font-family: Arial;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.main_bottom{
+    display: inline-block;
+    padding-bottom: 400px;
+}
+
+.main_bottom_photo{
+    border: 1px solid black;
+    display: inline-block;
+    width: 1600px;
+}
+
+.main_bottom_photo img{
+    width: 100%;
+    height: auto;
+}
+
+.main_bottom_secondpart{
+    border: 1px solid black;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.main_bottom_article,.main_bottom_sidebar{
+    vertical-align: top;
+}
+
+.main_bottom_article{
+    border: 1px solid black;
+    display: inline-block;
+    width: 1100px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.main_bottom_article_text1, .main_bottom_article_text2{
+    /*text-align: justify;*/
+}
+
+.main_bottom_article_section{
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.main_bottom_article_photo{
+    width: inherit;
+}
+
+.main_bottom_article_photo img{
+    width: 100%;
+    height: auto;
+}
+
+.main_bottom_article_title{
+    font-size: 32px;
+}
+
+
+
+.main_bottom_sidebar{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 400px;
+    display: inline-block;
+    font-size: 20px;
+    /*margin-left: 40px;*/
+    float: right;
+}
+
+.main_bottom_sidebar_photo{
+    width: 400px;
+    background-color : #9c9da0;
+}
+
+.main_bottom_sidebar_photo_filler{
+    padding-left: 20px;
+}
+
+.main_bottom_sidebar_photo img{
+    width: 100%;
+    height:auto;
+}
+
+.main_bottom_sidebar_postlist{
+}
+
+.main_bottom_sidebar_postlist_sign{
+    text-transform: uppercase;
+}
+
+.postlist_item_container_comments{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.main_footer{
+
+}
+
+.footer_categories__item{
+    color: #9c9da0;
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40px;
+}
