@@ -15,7 +15,6 @@ body {
 .categories__item{
     display: inline-block;
     margin-left: 60px;
-    color:#626262;
 }
 
 .categories__link{
@@ -66,6 +65,7 @@ body {
 }
 
 .main_bottom_article_text1, .main_bottom_article_text2{
+    /*text-align: justify;*/
 }
 
 .main_bottom_article_section{
@@ -102,23 +102,14 @@ body {
     height: max-content;
 }
 
-.main_bottom_sidebar_photo_photo{
-    width: 380px;
-}
-
-.main_bottom_sidebar_photo_photo img{
+.main_bottom_sidebar_photo img{
     width: 100%;
     height: auto;
 }
 
 .main_bottom_sidebar_photo_filler{
-    width: 20px;
     background-color : #9c9da0;
-}
-
-.main_bottom_sidebar_photo_filler img{
-    width: 100%;
-    height: available;
+    height: inherit;
 }
 
 .main_bottom_sidebar_postlist{
