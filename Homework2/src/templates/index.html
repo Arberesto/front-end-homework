@@ -10,7 +10,7 @@
 <body>
 <div class="main">
     <div class="main__header">
-        <img alt="Palo Alto" class="header__logo" src="../images/logo/logo_header.png">
+        <img alt="Palo Alto" class="header__logo" src="../images/logo/header__logo.png">
         <ul class="nav-list header__nav-list">
             <li class="nav-list__item">
                 <a href="#" class="nav-list__item__title_inactive">Home</a>
@@ -141,7 +141,7 @@
                     augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
                     Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
                 </p>
-                <p>
+                <p class="post__text">
                     Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis. Praesent dictum eleifend dui
                     et efficitur. Nunc non orci in neque sodales semper. Etiam euismod volutpat lorem, <a href="#">vestibulum
                     malesuada</a> justo aliquet eget. Nunc lacus ante, varius a euismod eu, finibus commodo erat.
@@ -149,6 +149,12 @@
                     fringilla nibh. Proin placerat enim vitae egestas eleifend. Aliquam quis orci dignissim, posuere
                     nibh a, eleifend augue. Cras quis metus nec tortor aliquet ullamcorper. Quisque varius porta metus,
                     ut maximus dolor euismod nec. Suspendisse sit amet feugiat turpis.
+                </p>
+                <p class="post__text">
+                    Curabitur ut leo pulvinar, consectetur magna eu, feugiat purus. Morbi hendrerit lectus turpis, a porttitor velit imperdiet id.
+                </p>
+                <p class="post__text">
+                    Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor. Nullam scelerisque ante mauris, egestas commodo nisi gravida ultrices. Suspendisse dapibus feugiat tincidunt. Aliquam gravida quam at ipsum sagittis bibendum
                 </p>
                 <div class="post__footer">
                     <div class="post__footer__readmore">
@@ -169,49 +175,61 @@
         </div>
     </div>
     <div class="footer">
-        <img alt="Palo Alto" class="footer__logo" src="../images/logo/logo_footer.png">
-        <ul class="nav-list">
-            <li class="nav-list__item ">
-                <a href="#" class="nav-list__item__title_inactive">Home</a>
-            </li>
-            <li class="nav-list__item">
-                <a href="#" class="nav-list__item__title footer__nav-list__item__title">About</a>
-            </li>
-            <li class="nav-list__item">
-                <a href="#" class="nav-list__item__title footer__nav-list__item__title">Archive</a>
-            </li>
-            <li class="nav-list__item">
-                <a href="#" class="nav-list__item__title footer__nav-list__item__title">Contact</a>
-            </li>
-            <li class="nav-list__item">
-                <div class="search-button__container header__search-button"></div>
-            </li>
-        </ul>
-        <p class="footer__content_text">
-            Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem,
-            consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet.
-            Nulla mattis tincidunt auctor.
-        </p>
-        <div class="footer__copyright">
-            <p class="footer__text-copyright">
-                © 2015 - Palo Alto. All Rights Reserved. Designed & Developed by
-                <a class="text_team" href="#">PixelBuddha Team</a>
+        <div class="footer__content">
+            <div class="footer__logo">
+                <img alt="Palo Alto" src="../images/logo/footer__logo.png">
+            </div>
+            <ul class="nav-list">
+                <li class="nav-list__item ">
+                    <a href="#" class="nav-list__item__title_inactive">Home</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#" class="nav-list__item__title footer__nav-list__item__title">About</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#" class="nav-list__item__title footer__nav-list__item__title">Archive</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#" class="nav-list__item__title footer__nav-list__item__title">Contact</a>
+                </li>
+                <li class="nav-list__item">
+                    <div class="search-button__container footer__search-button"></div>
+                </li>
+            </ul>
+            <p class="footer__text">
+                Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem,
+                consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet.
+                Nulla mattis tincidunt auctor.
             </p>
+            <div class="footer__copyright">
+                <p class="footer__copyright__text">
+                    © 2015 - Palo Alto. All Rights Reserved. Designed & Developed by
+                    <a class="footer__copyright__text-link" href="#">PixelBuddha Team</a>
+                </p>
+            </div>
+            <ul class="footer__social__list">
+                <li class="footer__social__list-item">
+                    <div class="social__icon__border">
+                        <div class="social__icon social_network_facebook"></div>
+                    </div>
+                </li>
+                <li class="footer__social__list-item">
+                    <div class="social__icon__border">
+                        <div class="social__icon social_network_twitter"></div>
+                    </div>
+                </li>
+                <li class="footer__social__list-item">
+                    <div class="social__icon__border">
+                        <div class="social__icon social_network_instagram"></div>
+                    </div>
+                </li>
+                <li class="footer__social__list-item">
+                    <div class="social__icon__border">
+                        <div class="social__icon social_network_pinterest"></div>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <ul class="footer__social__list">
-            <li class="footer__social__list-item">
-                <div class="icon_size icon_facebook"></div>
-            </li>
-            <li class="footer__social__list-item">
-                <div class="icon_size icon_twitter"></div>
-            </li>
-            <li class="footer__social__list-item">
-                <div class="icon_size icon_instagram"></div>
-            </li>
-            <li class="footer__social__list-item">
-                <div class="icon_size icon_pinterest"></div>
-            </li>
-        </ul>
     </div>
 </div>
 </body>
