@@ -5,7 +5,7 @@ body {
 .main {
     width: 1400px;
     background-color: #f7f9fc;
-    font-family: Lato, serif;
+    font-family: "Lato", serif;
     margin: 0 auto;
 }
 
@@ -18,9 +18,13 @@ body {
     display: inline-block;
 }
 
-.header__nav-list {
+.nav-list {
     display: inline-block;
     list-style: none;
+}
+
+.header__nav-list {
+    float: right;
 }
 
 .header__search-button {
@@ -32,6 +36,8 @@ body {
 }
 
 .nav-list__item  {
+    margin-left: 30px;
+    /*float: left;*/
     display: inline-block;
 }
 
@@ -41,8 +47,36 @@ body {
     color: #333333;
 }
 
+.nav-list__item__title:after {
+    content: '';
+    position: relative;
+    right: 0;
+    float: left;
+    width: 100%;
+    height: 1px;
+    background-color: #5c6bc0;
+    bottom: -3px;
+    transition: width 0.2s ease-in-out;
+}
+
+.nav-list__item__title:hover:after {
+    /*width: 100%;*/
+}
+
+.nav-list__item__title:active {
+    color: #5c6bc0;
+}
+
+.nav-list__item__title:active:after {
+    opacity: 0;
+}
+
 .nav-list__item__title_inactive {
+    text-decoration: none;
+    text-transform: uppercase;
     color: #bdbdbd;
+    cursor: default;
+    pointer-events: none;
 }
 
 .main__posts {
@@ -95,7 +129,6 @@ body {
 }
 
 .post__header {
-    /*padding: 0 0 30px 0;*/
     border-bottom: 2px solid #ededed;
     margin: 0 0 30px 0;
 }
@@ -103,7 +136,6 @@ body {
 .post__header__activity {
     height: 32px;
     background-color: #5c6bc0;
-    /*display: flex;*/
     float: right;
     position: relative;
     margin-right: -40px;
@@ -123,7 +155,6 @@ body {
     font-size: 14px;
     line-height: 50px;
     color: #ffffff;
-    font-family: "Lato";
     text-decoration: none;
     font-weight: bold;
     text-align: right;
@@ -174,7 +205,7 @@ body {
     border: 1px solid #7c89cc;
 }
 
-.footer__tags__taglist {
+.post__footer__tags__taglist {
     list-style: none;
 }
 
@@ -216,8 +247,26 @@ body {
     opacity: 0;
 }
 
+.search-button__container {
+    height: 18px;
+    width: 18px;
+}
+
 .footer {
     width: 1400px;
     height: 530px;
     background-color: #5c6bc0;
+    text-align: center;
+}
+
+.footer__nav-list__item__title {
+    color: #ffffff;
+}
+
+.footer__nav-list__item__title:after {
+    color: #ffffff;
+}
+
+.footer__nav-list__item__title_inactive {
+    color: #969ed4;
 }
