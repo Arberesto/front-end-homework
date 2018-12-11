@@ -22,6 +22,11 @@ body {
     display: inline-block;
 }
 
+.search-button {
+    height: 18px;
+    width: 18px;
+}
+
 .nav-list {
     display: inline-block;
     list-style: none;
@@ -136,24 +141,25 @@ body {
     border: none;
     float: left;
     margin-bottom: 40px;
+    padding: 10px 20px;
 }
 
 .contact-form__form-field_name {
-    width: 45%;
+    width: calc(45% - 40px);
     margin-right: 5%;
 }
 
 .contact-form__form-field_email {
-    width: 45%;
+    width: calc(45% - 40px);
     margin-left: 5%;
 }
 
 .contact-form__form-field_subject {
-    width: 100%;
+    width: calc(100% - 40px);
 }
 
 .contact-form__form-field_message {
-    width: 100%;
+    width: calc(100% - 40px);
     resize: none;
 }
 
@@ -222,24 +228,24 @@ body {
     display: inline-block;
     text-align: center;
     line-height: 1.5;
-    padding: 10px 10%;
+    padding: 40px 10%;
 }
 
 .footer__text:before {
     content: '';
     width: 100%;
-    right: 0;
     float: right;
+    bottom: 30px;
     position: relative;
     border-top: 1px solid #5765b5;
 }
 
 .footer__text:after {
     display: inline-block;
-    width: 80%;
-    content:"_";
+    width: 90%;
+    content:"";
     position: relative;
-    top: 10px;
+    top: 30px;
     right: 0;
     border-top: 1px solid #5765b5;
 }
@@ -269,10 +275,6 @@ body {
     transition: width 0.2s ease-in-out;
 }
 
-.copyright__text-link:hover:after {
-    width: 115px;
-}
-
 .social {
     margin-top: 30px;
     list-style: none;
@@ -292,7 +294,7 @@ body {
     background-color: #5360ac;
 }
 
-.social__icon-border {
+.social__link {
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -320,8 +322,35 @@ body {
 
 @media screen and (max-width: 480px) {
 
+    .header,.content {
+        width: 96%;
+        margin: 0 2%;
+    }
+
+    .contact-form__form-field_name,.contact-form__form-field_email,
+    .contact-form__form-field_subject.contact-form__form-field_message {
+        width: 90%;
+        padding: 10px 10%;
+        margin: 0 0 40px 0;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
+    .content {
+        border: 1px solid black;
+    }
 
+    .contact-form {
+        width: 90%;
+        padding: 40px 5%;
+    }
+
+    .nav-list__list-item {
+        display: block;
+    }
+
+    .list-item__type_footer {
+        display: block;
+    }
 }
