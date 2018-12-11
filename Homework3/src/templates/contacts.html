@@ -9,196 +9,67 @@
     <title>Palo Alto</title>
 </head>
 <body>
-<div class="main">
-    <div class="main__header">
+<main class="main">
+    <header class="header">
         <img alt="Palo Alto" class="header__logo" src="../images/logo/header__logo.png">
         <ul class="nav-list header__nav-list">
-            <li class="nav-list__item">
-                <a href="index.html" class="nav-list__item__title">Home</a>
+            <li class="nav-list__list-item">
+                <a href="index.html" class="list-item__title">Home</a>
             </li>
-            <li class="nav-list__item">
-                <a href="#" class="nav-list__item__title">About</a>
+            <li class="nav-list__list-item">
+                <a href="#" class="list-item__title">About</a>
             </li>
-            <li class="nav-list__item">
-                <a href="#" class="nav-list__item__title">Archive</a>
+            <li class="nav-list__list-item">
+                <a href="#" class="list-item__title">Archive</a>
             </li>
-            <li class="nav-list__item">
-                <a href="#" class="nav-list__item__title_inactive">Contact</a>
+            <li class="nav-list__list-item">
+                <a href="#" class="list-item__title_inactive">Contact</a>
             </li>
-            <li class="nav-list__item">
-                <div class="search-button__container header__search-button"></div>
+            <li class="nav-list__list-item">
+                <div class="search-button header__search-button"></div>
             </li>
         </ul>
-    </div>
-    <div class="main__posts">
-        <div class="post post1">
-            <div class="post__content">
-                <div class="post__header">
-                    <div class="post__header__activity">
-                        <a href="#" class="post__header__activity__title">I Do Travel</a>
-                    </div>
-                    <p class="post__header__data">Sep 20</p>
-                    <p class="post__header__title">
-                        No difference how many peaks you reach if there was no pleasure in the climb.
-                    </p>
-                </div>
-                <p class="post__text">
-                    Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna.
-                    Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed
-                    ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
-                    egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum
-                    augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
-                    Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
-                </p>
-                <div class="post__footer">
-                    <div class="post__footer__readmore">
-                        <a class="post__footer__readmore__button" href="#">Read more</a>
-                    </div>
-                    <div class="post__footer__tags">
-                        <ul class="post__footer__tags__taglist">
-                            <li class="taglist__item">
-                                <a href="#" class="taglist__item__link">Yosemite</a>
-                            </li>
-                            <li class="taglist__item">
-                                <a href="#" class="taglist__item__link">Peak</a>
-                            </li>
-                            <li class="taglist__item">
-                                <a href="#" class="taglist__item__link">Explorer</a>
-                            </li>
-                        </ul>
-                    </div>
+    </header>
+    <article class="content">
+        <section class="contact-form">
+            <div class="contact-form__header">
+                <p class="contact-form__title">Contact Us</p>
+                <p class="contact-form__text">Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante posuere non.
+                    Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi tristique
+                    senectus et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam justo.</p>
+            </div>
+            <div class="contact-form__content">
+                <form class = "contact-form__form" action="/login" method="POST">
+                <input type="text" placeholder="Your name" class="contact-form__form-field contact-form__form-field_name">
+                <input type="email" placeholder="Email" class="contact-form__form-field contact-form__form-field_email">
+                <input type="text" placeholder="Subject" class="contact-form__form-field contact-form__form-field_subject">
+                <textarea placeholder="Your message" class="contact-form__form-field contact-form__form-field_message"></textarea>
+                </form>
+                <div class="contact-form__send-message">
+                    <a class="contact-form__send-button" href="#">Send message</a>
                 </div>
             </div>
-        </div>
-        <div class="post post2">
-            <div class="post__image__container">
-                <img alt="loading" class="post2__image" src="../images/post__image/post2_bg_img.jpg">
-            </div>
-            <div class="post__content">
-                <div class="post__header">
-                    <div class="post__header__activity">
-                        <a href="#" class="post__header__activity__title">I Do Observe</a>
-                    </div>
-                    <p class="post__header__data">Sep 18</p>
-                    <p class="post__header__title">
-                        You know, I'd rather argue with you, then laugh with anyone else.
-                    </p>
-                </div>
-                <p class="post__text_big-cursive">
-                    Curabitur luctus placerat lorem id eleifend. Nulla ac lacus finibus, tempor velit hendrerit,
-                    vulputate lacus. Nunc fermentum nunc sem, ac eleifend tellus cursus nec. Donec a euismod est, vitae
-                    accumsan purus. Proin aliquet ex massa, ac finibus magna commodo vitae.
-                </p>
-                <p class="post__text">
-                    Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna.
-                    Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed
-                    ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
-                    egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum
-                    augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
-                    Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
-                </p>
-                <p class="post__text">
-                    Sed sagittis commodo dolor. Vivamus elementum sem sed sapien bibendum viverra. Curabitur semper
-                    scelerisque turpis eu ullamcorper. Morbi tincidunt auctor orci id consequat. Nulla odio mi, iaculis
-                    id congue quis, euismod id nisi. In varius congue diam, et viverra lorem bibendum ut.
-                </p>
-                <div class="post__footer">
-                    <div class="post__footer__readmore">
-                        <a class="post__footer__readmore__button" href="#">Read more</a>
-                    </div>
-                    <div class="post__footer__tags">
-                        <ul class="post__footer__tags__taglist">
-                            <li class="taglist__item">
-                                <a href="#" class="taglist__item__link">Yosemite</a>
-                            </li>
-                            <li class="taglist__item">
-                                <a href="#" class="taglist__item__link">Peak</a>
-                            </li>
-                            <li class="taglist__item">
-                                <a href="#" class="taglist__item__link">Photo</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="post post8">
-            <div class="post__content">
-                <div class="post__header">
-                    <div class="post__header__activity">
-                        <a href="#" class="post__header__activity__title">I Do Reflect</a>
-                    </div>
-                    <p class="post__header__data">Sep 11</p>
-                    <p class="post__header__title">
-                        Democracy means simply the bludgeoning of the people by the people for the people.
-                    </p>
-                </div>
-                <img alt="statue" class="post8__image" src="../images/post__image/post8_img.jpg">
-                <p class="post__text">
-                    Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna.
-                    Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed
-                    ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
-                    egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum
-                    augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc.
-                    Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
-                </p>
-                <p class="post__text">
-                    Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis. Praesent dictum eleifend dui
-                    et efficitur. Nunc non orci in neque sodales semper. Etiam euismod volutpat lorem, <a href="#">vestibulum
-                    malesuada</a> justo aliquet eget. Nunc lacus ante, varius a euismod eu, finibus commodo erat.
-                    Curabitur tincidunt sit amet nunc id interdum. Aliquam augue nisi, venenatis vitae ex at, lobortis
-                    fringilla nibh. Proin placerat enim vitae egestas eleifend. Aliquam quis orci dignissim, posuere
-                    nibh a, eleifend augue. Cras quis metus nec tortor aliquet ullamcorper. Quisque varius porta metus,
-                    ut maximus dolor euismod nec. Suspendisse sit amet feugiat turpis.
-                </p>
-                <p class="post__text gray-text-with-column">
-                    Curabitur ut leo pulvinar, consectetur magna eu, feugiat purus. Morbi hendrerit lectus turpis, a
-                    porttitor velit imperdiet id.
-                </p>
-                <p class="post__text">
-                    Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut,
-                    ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt
-                    auctor. Nullam scelerisque ante mauris, egestas commodo nisi gravida ultrices. Suspendisse dapibus
-                    feugiat tincidunt. Aliquam gravida quam at ipsum sagittis bibendum
-                </p>
-                <div class="post__footer">
-                    <div class="post__footer__readmore">
-                        <a class="post__footer__readmore__button" href="#">Read more</a>
-                    </div>
-                    <div class="post__footer__tags">
-                        <ul class="post__footer__tags__taglist">
-                            <li class="taglist__item">
-                                <a href="#" class="taglist__item__link">Democracy</a>
-                            </li>
-                            <li class="taglist__item">
-                                <a href="#" class="taglist__item__link">Introspection</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+    </article>
     <div class="footer">
-        <div class="footer__content">
             <div class="footer__logo">
                 <img alt="Palo Alto" src="../images/logo/footer__logo.png">
             </div>
             <ul class="nav-list">
-                <li class="nav-list__item ">
-                    <a href="index.html" class="nav-list__item__title footer__nav-list__item__title">Home</a>
+                <li class="nav-list__list-item">
+                    <a href="index.html" class="list-item__title list-item__type_footer">Home</a>
                 </li>
-                <li class="nav-list__item">
-                    <a href="#" class="nav-list__item__title footer__nav-list__item__title">About</a>
+                <li class="nav-list__list-item">
+                    <a href="#" class="list-item__title list-item__type_footer">About</a>
                 </li>
-                <li class="nav-list__item">
-                    <a href="#" class="nav-list__item__title footer__nav-list__item__title">Archive</a>
+                <li class="nav-list__list-item">
+                    <a href="#" class="list-item__title list-item__type_footer">Archive</a>
                 </li>
-                <li class="nav-list__item">
-                    <a href="#" class="nav-list__item__title_inactive">Contact</a>
+                <li class="nav-list__list-item">
+                    <a href="#" class="list-item__title_inactive">Contact</a>
                 </li>
-                <li class="nav-list__item">
-                    <div class="search-button__container footer__search-button"></div>
+                <li class="nav-list__list-item">
+                    <div class="search-button footer__search-button"></div>
                 </li>
             </ul>
             <div class="footer__text">
@@ -206,37 +77,36 @@
                 consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet.
                 Nulla mattis tincidunt auctor.
             </div>
-            <div class="footer__copyright">
-                <p class="footer__copyright__text">
+            <div class="copyright">
+                <p class="copyright__text">
                     © 2015 - Palo Alto. All Rights Reserved. Designed & Developed by
-                    <a href="#" class="footer__copyright__text-link">PixelBuddha Team
+                    <a href="#" class="copyright__text-link">PixelBuddha Team
                     </a>
                 </p>
             </div>
-            <ul class="footer__social__list">
-                <li class="footer__social__list-item">
-                    <div class="social__icon__border">
+            <ul class="social">
+                <li class="social__list-item">
+                    <div class="social__icon-border">
                         <a href="#" class="social__icon social_network_facebook"></a>
                     </div>
                 </li>
-                <li class="footer__social__list-item">
-                    <div class="social__icon__border">
+                <li class="social__list-item">
+                    <div class="social__icon-border">
                         <a href="#" class="social__icon social_network_twitter"></a>
                     </div>
                 </li>
-                <li class="footer__social__list-item">
-                    <div class="social__icon__border">
+                <li class="social__list-item">
+                    <div class="social__icon-border">
                         <a href="#" class="social__icon social_network_instagram"></a>
                     </div>
                 </li>
-                <li class="footer__social__list-item">
-                    <div class="social__icon__border">
+                <li class="social__list-item">
+                    <div class="social__icon-border">
                         <a href="#" class="social__icon social_network_pinterest"></a>
                     </div>
                 </li>
             </ul>
-        </div>
     </div>
-</div>
+</main>
 </body>
 </html>
