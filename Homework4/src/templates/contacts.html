@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/contacts.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato"
+          rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Palo Alto</title>
+</head>
+<body>
+<main class="main">
+    <header class="header">
+        <img alt="Palo Alto" class="header__logo" src="../components/header/images/header__logo.png">
+        <ul class="nav-list header__nav-list">
+            <li class="nav-list__list-item">
+                <a href="index.html" class="list-item__title">Home</a>
+            </li>
+            <li class="nav-list__list-item">
+                <a href="#" class="list-item__title">About</a>
+            </li>
+            <li class="nav-list__list-item">
+                <a href="#" class="list-item__title">Archive</a>
+            </li>
+            <li class="nav-list__list-item">
+                <a href="#" class="list-item__title_inactive">Contact</a>
+            </li>
+            <li class="nav-list__list-item">
+                <div class="search-button header__search-button"></div>
+            </li>
+        </ul>
+    </header>
+    <article class="content">
+        <section class="contact-form">
+            <div class="contact-form__header">
+                <p class="contact-form__title">Contact Us</p>
+                <p class="contact-form__text">Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante posuere non.
+                    Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi tristique
+                    senectus et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam justo.</p>
+            </div>
+            <div class="contact-form__content">
+                <form class = "contact-form__form" action="/login" method="POST">
+                <input type="text" placeholder="Your name" class="contact-form__form-field contact-form__form-field_name">
+                <input type="email" placeholder="Email" class="contact-form__form-field contact-form__form-field_email">
+                <input type="text" placeholder="Subject" class="contact-form__form-field contact-form__form-field_subject">
+                <textarea placeholder="Your message" class="contact-form__form-field contact-form__form-field_message"></textarea>
+                </form>
+                <div class="contact-form__send-message">
+                    <a class="contact-form__send-button" href="#">Send message</a>
+                </div>
+            </div>
+        </section>
+    </article>
+    <div class="footer">
+            <div class="footer__logo">
+                <img alt="Palo Alto" src="../components/footer/images/footer__logo.png">
+            </div>
+            <ul class="nav-list">
+                <li class="nav-list__list-item">
+                    <a href="index.html" class="list-item__title list-item__type_footer">Home</a>
+                </li>
+                <li class="nav-list__list-item">
+                    <a href="#" class="list-item__title list-item__type_footer">About</a>
+                </li>
+                <li class="nav-list__list-item">
+                    <a href="#" class="list-item__title list-item__type_footer">Archive</a>
+                </li>
+                <li class="nav-list__list-item">
+                    <a href="#" class="list-item__title_inactive">Contact</a>
+                </li>
+                <li class="nav-list__list-item">
+                    <div class="search-button footer__search-button"></div>
+                </li>
+            </ul>
+            <div class="footer__text">
+                Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem,
+                consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet.
+                Nulla mattis tincidunt auctor.
+            </div>
+            <div class="copyright">
+                <p class="copyright__text">
+                    © 2015 - Palo Alto. All Rights Reserved. Designed & Developed by
+                    <a href="#" class="copyright__text-link">PixelBuddha Team
+                    </a>
+                </p>
+            </div>
+            <ul class="social">
+                <li class="social__list-item">
+                            <a href="#" class="social__link">
+                                <div class="social__icon social_network_facebook">
+                                </div>
+                            </a>
+                </li>
+                <li class="social__list-item">
+                        <a href="#" class="social__link">
+                        <div class="social__icon social_network_twitter"></div>
+                        </a>
+                </li>
+                <li class="social__list-item">
+                        <a href="#" class="social__link">
+                        <div class="social__icon social_network_instagram"></div>
+                        </a>
+                </li>
+                <li class="social__list-item">
+                        <a href="#" class="social__link">
+                        <div class="social__icon social_network_pinterest"></div>
+                        </a>
+                </li>
+            </ul>
+    </div>
+</main>
+</body>
+</html>
