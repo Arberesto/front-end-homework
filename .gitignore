@@ -2,4 +2,5 @@
 .idea/
 *.ipr
 *.xml
+Homework*/node_modules
 .DS_Store
